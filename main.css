@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  color: white;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+  color: black;
+}
+
+main {
+  font-size: 18px;
+  color: rgb(126, 190, 246);
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+  object-fit: none;
+}
+
+footer {
+  width: 100%;
+  margin-top: 110px;
+  text-align: center;
+  background: black;
+  grid-area: footer;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    /* Set the starting point of the rotation */
+  }
+
+  100% {
+    transform: rotate(360deg);
+    /* Set the ending point of the rotation */
+  }
+}
